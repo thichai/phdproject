@@ -1,0 +1,410 @@
+Sep 11, 2015 11:13:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.63
+Sep 11, 2015 11:13:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jun 30 2015 08:08:33 UTC
+Sep 11, 2015 11:13:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.63.0
+Sep 11, 2015 11:13:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 8
+Sep 11, 2015 11:13:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.2
+Sep 11, 2015 11:13:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Sep 11, 2015 11:13:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.7.0_40\jre
+Sep 11, 2015 11:13:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_40-b43
+Sep 11, 2015 11:13:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Sep 11, 2015 11:13:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\Apache Tomcats\Server 1
+Sep 11, 2015 11:13:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\Apache Tomcats\Server 1
+Sep 11, 2015 11:13:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=C:\Apache Tomcats\Server 1\conf\logging.properties
+Sep 11, 2015 11:13:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Sep 11, 2015 11:13:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=C:\Apache Tomcats\Server 1\endorsed
+Sep 11, 2015 11:13:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:\Apache Tomcats\Server 1
+Sep 11, 2015 11:13:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:\Apache Tomcats\Server 1
+Sep 11, 2015 11:13:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=C:\Apache Tomcats\Server 1\temp
+Sep 11, 2015 11:13:02 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_40\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Rtools\bin;c:\Rtools\gcc-4.6.3\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\System32;C:\Ruby200\bin;C:\Perl\site\bin;C:\Perl\bin;C:\Program Files\Java\jre7\bin;C:\Trangmx\Android Develop\adt-bundle-windows-x86_64-20131030\sdk\platform-tools;C:\Program Files (x86)\MiKTeX 2.9\miktex\bin\;C:\Program Files (x86)\DAISY Pipeline 2\daisy-pipeline\cli;C:\Program Files (x86)\DAISY Pipeline 2\daisy-pipeline\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Anaconda;C:\Anaconda\Scripts;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files (x86)\Subversion\bin;C:\Program Files\TortoiseSVN\bin;C:\Windows\System32\WindowsPowerShell\v1.0;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Skype\Phone\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_40\bin;C:\Program Files\Java\jdk1.7.0_40\lib;C:\Program Files (x86)\CVSNT\;C:\Trangmx\ProgrammingTools\cvs-1-11-22;C:\apache-ant-1.9.4\bin;C:\Program Files (x86)\Apache Software Foundation\apache-maven-3.2.3\bin;C:\Trangmx\UIMA\UIMA AS\apache-uima-as-2.4.2\bin;C:\Trangmx\PhD Research\Tools\Emacs\EMACS\bin;C:\Trangmx\PhD Research\Tools\Emacs\EMACS\Aspell\bin;C:\TreeTagger\bin;C:\freeling_win\freeling\bin;C:\freeling_win\freeling\lib;C:\freeling_win\boost_1.47\lib;C:\freeling_win\icu\bin;C:\Python27;C:\Program Files\PostgreSQL\9.2\bin;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Trangmx\hyperic-sigar-1.6.4\sigar-bin\lib;.
+Sep 11, 2015 11:13:03 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8081"]
+Sep 11, 2015 11:13:03 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Sep 11, 2015 11:13:03 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8010"]
+Sep 11, 2015 11:13:03 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 594 ms
+Sep 11, 2015 11:13:03 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 11, 2015 11:13:03 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.63
+Sep 11, 2015 11:13:03 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo.war
+Sep 11, 2015 11:13:06 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 11, 2015 11:13:06 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo.war has finished in 3,061 ms
+Sep 11, 2015 11:13:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Apache Tomcats\Server 1\webapps\docs
+Sep 11, 2015 11:13:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Apache Tomcats\Server 1\webapps\docs has finished in 49 ms
+Sep 11, 2015 11:13:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Apache Tomcats\Server 1\webapps\examples
+Sep 11, 2015 11:13:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Apache Tomcats\Server 1\webapps\examples has finished in 287 ms
+Sep 11, 2015 11:13:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Apache Tomcats\Server 1\webapps\host-manager
+Sep 11, 2015 11:13:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Apache Tomcats\Server 1\webapps\host-manager has finished in 46 ms
+Sep 11, 2015 11:13:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Apache Tomcats\Server 1\webapps\manager
+Sep 11, 2015 11:13:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Apache Tomcats\Server 1\webapps\manager has finished in 77 ms
+Sep 11, 2015 11:13:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Apache Tomcats\Server 1\webapps\ROOT
+Sep 11, 2015 11:13:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Apache Tomcats\Server 1\webapps\ROOT has finished in 54 ms
+Sep 11, 2015 11:13:06 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8081"]
+Sep 11, 2015 11:13:06 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8010"]
+Sep 11, 2015 11:13:06 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3657 ms
+Sep 11, 2015 11:13:48 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@5e854128: startup date [Fri Sep 11 23:13:48 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:48 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\DummyService.xml]
+Sep 11, 2015 11:13:48 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6674c855: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:48 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@3980725e: startup date [Fri Sep 11 23:13:48 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:48 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\DummyService2.xml]
+Sep 11, 2015 11:13:48 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@508892c2: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:48 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@504d0a38: startup date [Fri Sep 11 23:13:48 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:48 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\EchoTranslation.xml]
+Sep 11, 2015 11:13:48 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@45c8d2d9: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:48 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@5a21a398: startup date [Fri Sep 11 23:13:48 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:48 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:48 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18e36e2b: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:48 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@46bc2c1b: startup date [Fri Sep 11 23:13:48 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:48 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationB.xml]
+Sep 11, 2015 11:13:48 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@cb06677: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:48 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@4a5cbd95: startup date [Fri Sep 11 23:13:48 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:48 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationC.xml]
+Sep 11, 2015 11:13:48 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5fab4353: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@10ff73af: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2de8310d: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@2f64a8f8: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@74b4a1a9: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@7ee19a1a: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@76d817ff: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@3249b16e: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@40a1f3f: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@5cabe28e: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@12cec114: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@22bf48c2: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7d8dbfd5: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@652d7958: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@53131a5c: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@b27b8a0: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6071c650: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@4d92dfa7: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@401938de: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@37e497b2: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@224f5ddc: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@77f06f69: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@256f78ad: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@395bb90e: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5621a1c1: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@3a02b214: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6ebd9dc: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@662bfe10: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@137734c6: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@55410541: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@47763eb2: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@4c97f775: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68f64d93: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@25f23bb: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7c8a30f0: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@54931c70: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5f905406: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@7c7c86ed: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@8cf9f4f: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@76e4000d: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@10815a11: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@1c401a8e: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@56353409: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@3eeb6716: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7dfc2250: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@3430f2ce: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@39429d8d: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@4475b159: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@280bc0db: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@1ba27e67: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@370d7cf8: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@56879a04: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@32220712: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@57fe4874: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3e57b8cb: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@71253766: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@236a56f1: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@1a71fa61: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@38528f18: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@34308d8b: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2f265d09: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@7fa6120d: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@195e5612: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@64c4c1: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@56e22137: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@17f2ce71: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3161e7c1: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@12b6493b: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@84054a4: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@59eab052: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@471bbb52: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@6da728f6: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@793fec67: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@53b99c61: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@50c7dbcb: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@712f15db: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@154fed8a: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@327409f4: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@31e5a47a: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@5b915f2d: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@fb9614d: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@53a30e4b: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4da12e51: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@10e7efa8: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@38ebef71: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@9b500e9: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3bc53d4e: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@123bea8a: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5fc2d517: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@70340a1e: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@168ad7df: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@75627d08: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7b4e52da: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@5321a574: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3c19da7c: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@455721b7: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3c40f2f2: defining beans [target]; root of factory hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing jp.go.nict.langrid.servicecontainer.spring.WebappXmlApplicationContext@4c0e0cc5: startup date [Fri Sep 11 23:13:49 JST 2015]; root of context hierarchy
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from file [C:\Apache Tomcats\Server 1\webapps\jp.go.trang.langrid.webapps.echo\WEB-INF\serviceimpl\MockTranslationA.xml]
+Sep 11, 2015 11:13:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4b1ee15a: defining beans [target]; root of factory hierarchy
