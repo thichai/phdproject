@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><analysisEngineDeploymentDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <name>SegmenterAndBackTranslation AE</name>
+  <description>Deploys BackTranslation Aggregate AE with all its delegates in the same JVM.</description>
+  <version/>
+  <vendor/>
+  <deployment protocol="jms" provider="activemq">
+    <casPool numberOfCASes="1" initialFsHeapSize="2000000"/>
+    <service>
+      <inputQueue endpoint="SegmenterAndBackTranslationQueue" brokerURL="tcp://localhost:61616" prefetch="0"/>
+      <topDescriptor>
+<import location="../analysisengine/SegmenterAndBackTranslationAE.xml"/>
+      </topDescriptor>
+      <analysisEngine async="true">
+        <scaleout numberOfInstances="1"/>
+        <delegates>
+          <analysisEngine key="SimpleTextSegmenter" async="false">
+            <scaleout numberOfInstances="1"/>
+            <casMultiplier poolSize="1" initialFsHeapSize="2000000" processParentLast="false"/>
+            <asyncAggregateErrorConfiguration>
+              <getMetadataErrors maxRetries="0" timeout="0" errorAction="terminate"/>
+              <processCasErrors maxRetries="0" timeout="0" continueOnRetryFailure="false" thresholdCount="0" thresholdWindow="0" thresholdAction="terminate"/>
+              <collectionProcessCompleteErrors timeout="0" additionalErrorAction="terminate"/>
+            </asyncAggregateErrorConfiguration>
+          </analysisEngine>
+          <analysisEngine key="BackTranslationDescriptor" async="true">
+            <scaleout numberOfInstances="1"/>
+            <delegates>
+              <analysisEngine key="ForwardTransAnotatorDescriptor" async="false">
+                <scaleout numberOfInstances="1"/>
+                <asyncAggregateErrorConfiguration>
+                  <getMetadataErrors maxRetries="0" timeout="0" errorAction="terminate"/>
+                  <processCasErrors maxRetries="0" timeout="0" continueOnRetryFailure="false" thresholdCount="0" thresholdWindow="0" thresholdAction="terminate"/>
+                  <collectionProcessCompleteErrors timeout="0" additionalErrorAction="terminate"/>
+                </asyncAggregateErrorConfiguration>
+              </analysisEngine>
+              <analysisEngine key="BackwardTranslationDescriptor" async="false">
+                <scaleout numberOfInstances="1"/>
+                <asyncAggregateErrorConfiguration>
+                  <getMetadataErrors maxRetries="0" timeout="0" errorAction="terminate"/>
+                  <processCasErrors maxRetries="0" timeout="0" continueOnRetryFailure="false" thresholdCount="0" thresholdWindow="0" thresholdAction="terminate"/>
+                  <collectionProcessCompleteErrors timeout="0" additionalErrorAction="terminate"/>
+                </asyncAggregateErrorConfiguration>
+              </analysisEngine>
+            </delegates>
+            <asyncAggregateErrorConfiguration>
+              <getMetadataErrors maxRetries="0" timeout="0" errorAction="terminate"/>
+              <processCasErrors maxRetries="0" timeout="0" continueOnRetryFailure="false" thresholdCount="0" thresholdWindow="0" thresholdAction="terminate"/>
+              <collectionProcessCompleteErrors timeout="0" additionalErrorAction="terminate"/>
+            </asyncAggregateErrorConfiguration>
+          </analysisEngine>
+        </delegates>
+        <asyncPrimitiveErrorConfiguration>
+          <processCasErrors thresholdCount="0" thresholdWindow="0" thresholdAction="terminate"/>
+          <collectionProcessCompleteErrors timeout="0" additionalErrorAction="terminate"/>
+        </asyncPrimitiveErrorConfiguration>
+      </analysisEngine>
+    </service>
+  </deployment>
+</analysisEngineDeploymentDescription>
