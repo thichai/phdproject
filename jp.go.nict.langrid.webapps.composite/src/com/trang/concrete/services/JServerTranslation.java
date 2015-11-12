@@ -1,4 +1,4 @@
-package testservice;
+package com.trang.concrete.services;
 
 import java.net.MalformedURLException;
 import java.net.URL;

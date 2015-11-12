@@ -24,6 +24,7 @@ import org.apache.uima.cas.FeatureStructure;
 import org.apache.uima.collection.EntityProcessStatus;
 import org.apache.uima.jcas.JCas;
 
+import com.trang.uima.langrid.ComponentServiceFactoryHolder;
 import com.trang.uima.pipeline.SegmenterAndBackTranslationPipeline;
 import com.trang.uima.types.IntermediateResult;
 import com.trang.uima.types.Target;
@@ -40,7 +41,7 @@ public class UIMAASBackTranslation extends AbstractCompositeService implements
 
 	private String getFile(String serviceName) {
 		// TODO Auto-generated method stub
-		return "C:/Users/Trang/OneDrive/Documents/Phd Research/Topic 3/Source code/"
+		return "C:/Users/Trang/Documents/GitHub/phdproject/"
 				+ "jp.go.nict.langrid.webapps.composite/"
 				+ "descriptors/deploy/";
 	}
@@ -64,6 +65,8 @@ public class UIMAASBackTranslation extends AbstractCompositeService implements
 			ServiceNotActiveException, ServiceNotFoundException,
 			UnsupportedLanguagePairException {
 		synchronized (BackTranslationService.class) {
+			
+			ComponentServiceFactoryHolder.set(getComponentServiceFactory());
 			
 			UimaAsBaseCallbackListener asyncListener = new UimaAsBaseCallbackListener() {
 				/**
@@ -134,7 +137,7 @@ public class UIMAASBackTranslation extends AbstractCompositeService implements
 			SegmenterAndBackTranslationPipeline uimaPipeline;
 			try {
 				uimaPipeline = new SegmenterAndBackTranslationPipeline(
-						asyncListener, deployfile, getComponentServiceFactory());
+						asyncListener, deployfile);
 
 				casID = 0;
 				System.out.println("Processing document...");
@@ -149,37 +152,10 @@ public class UIMAASBackTranslation extends AbstractCompositeService implements
 			BackTranslationResult ret = new BackTranslationResult(
 					intermediateresult, targetResult);
 
+			ComponentServiceFactoryHolder.remove();
+			
 			return ret;
 			
 		}
 	}
-
-	private BackTranslationResult getResult(JCas jcas) {
-		String interResult = "";
-		String targetResult = "";
-		FSIterator iter1;
-		FSIterator iter2;
-		try {
-			iter1 = jcas.getAnnotationIndex(IntermediateResult.type).iterator();
-			iter2 = jcas.getAnnotationIndex(Target.type).iterator();
-			while (iter1.isValid() && iter2.isValid()) {
-				FeatureStructure fs1 = iter1.get();
-				IntermediateResult interText = (IntermediateResult) fs1;
-				interResult = interText.getContent();
-				FeatureStructure fs2 = iter2.get();
-				Target targetText = (Target) fs2;
-				targetResult = targetText.getContent();
-				iter1.moveToNext();
-				iter2.moveToNext();
-			}
-		} catch (CASRuntimeException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-
-		BackTranslationResult ret = new BackTranslationResult(interResult,
-				targetResult);
-		return ret;
-	}
-
 }

@@ -63,7 +63,7 @@ public class UIMABackTranslation extends AbstractCompositeService implements
 
 	private String getFile(String serviceName) {
 		// TODO Auto-generated method stub
-		return "C:/Users/Trang/OneDrive/Documents/Phd Research/Topic 3/Source code/"
+		return "C:/Users/Trang/Documents/GitHub/phdproject/"
 				+ "jp.go.nict.langrid.webapps.composite"
 				+ "/descriptors/analysisengine/";
 	}

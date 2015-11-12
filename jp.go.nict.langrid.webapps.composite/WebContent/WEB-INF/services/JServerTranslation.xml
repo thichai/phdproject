@@ -3,7 +3,7 @@
 <beans>
   <bean id="target" class="jp.go.nict.langrid.servicecontainer.handler.TargetServiceFactory" >
     <property name="service">
-      <bean class="testservice.JServerTranslation" />
+      <bean class="com.trang.concrete.services.JServerTranslation" />
     </property>
   </bean>
 </beans>
